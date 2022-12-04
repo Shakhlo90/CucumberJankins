@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 
 public class FacebookDefClass {
     WebDriver driver;
-    @Given("user navigated to Facebook login page")
+    @Given("user is navigated to Facebook login page")
     public void user_navigated_to_facebook_login_page() {
         WebDriverManager.chromedriver().setup();
         driver=new ChromeDriver();
@@ -24,7 +24,7 @@ public class FacebookDefClass {
 
     }
 
-    @When("user sends valid username and password")
+    @When("user enters valid username and password")
     public void user_sends_valid_username_and_password() {
         WebElement usernameField = driver.findElement(By.xpath("//input[@data-testid='royal_email']"));
         usernameField.sendKeys("tukhtaevashahlo@gmail.com");
@@ -42,7 +42,7 @@ public class FacebookDefClass {
 
     }
 
-    @Then("user can successfully logged in Homepage")
+    @Then("user can successfully logged in Facebook Homepage")
     public void user_can_successfully_logged_in_homepage() {
         WebElement profile = driver.findElement(By.xpath("//span[text()='Shahlo Tukhtaeva']"));
         String text=profile.getText();
