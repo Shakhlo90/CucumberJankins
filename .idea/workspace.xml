@@ -5,10 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3c4de79-24db-4c5a-9597-dc999e224ee5" name="Changes" comment="commited">
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/AddEmpyoyeeSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/AddEmployee.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AddEmployeePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DashboardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/EmployeeListPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/FailedRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/AddEmployeeSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/EmployeeSearchSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/PageInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/ExcelReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/EmployeeSearch.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testData/ExelFile.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/SmokeRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/SmokeRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/AddEmpyoyeeSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/DashboarsSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/DashboarsSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/CommonMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/CommonMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AddEmployee.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AddEmployee.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/Dashboard.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Dashboard.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
     </list>
@@ -42,24 +61,29 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tukht/IdeaProjects/CucumberBatch14/src/test/resources/features&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/tukht/IdeaProjects/CucumberBatch14/src/test/resources/testData&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tukht\IdeaProjects\CucumberBatch14\src\test\resources\testData" />
       <recent name="C:\Users\tukht\IdeaProjects\CucumberBatch14\src\test\resources\features" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.SmokeRunner">
-    <configuration name="Scenario: Facebook login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Adding multiple employees using data table" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/CucumberTool/FacebookLogin.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AddEmployee.feature" />
+      <option name="GLUE" value="steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="CucumberBatch14" />
-      <option name="NAME_FILTER" value="^Facebook login$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Facebook login$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Facebook login" />
+      <option name="NAME_FILTER" value="^Adding multiple employees using data table$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Adding multiple employees using data table$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Adding multiple employees using data table" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -71,15 +95,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Valid admin login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Adding multiple employees using excel file" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/CucumberTool/Login.feature" />
-      <option name="GLUE" value="CucumberTool" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AddEmployee.feature" />
+      <option name="GLUE" value="steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="CucumberBatch14" />
-      <option name="NAME_FILTER" value="^Valid admin login$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Valid admin login$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Valid admin login" />
+      <option name="NAME_FILTER" value="^Adding multiple employees using excel file$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Adding multiple employees using excel file$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Adding multiple employees using excel file" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Adding multiple employees using feature file" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/AddEmployee.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberBatch14" />
+      <option name="NAME_FILTER" value="^Adding multiple employees using feature file$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Adding multiple employees using feature file$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Adding multiple employees using feature file" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -93,8 +137,8 @@
     </configuration>
     <configuration name="Scenario: Verify dashboard" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/CucumberTool/Dashboard.feature" />
-      <option name="GLUE" value="CucumberTool" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Dashboard.feature" />
+      <option name="GLUE" value="steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="CucumberBatch14" />
       <option name="NAME_FILTER" value="^Verify dashboard$" />
@@ -107,21 +151,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RunnerClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CucumberBatch14" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CucumberTool.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CucumberTool" />
-      <option name="MAIN_CLASS_NAME" value="CucumberTool.RunnerClass" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -144,10 +173,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SmokeRunner" />
-        <item itemvalue="JUnit.RunnerClass" />
         <item itemvalue="Cucumber Java.Scenario: Verify dashboard" />
-        <item itemvalue="Cucumber Java.Scenario: Facebook login" />
-        <item itemvalue="Cucumber Java.Scenario: Valid admin login" />
+        <item itemvalue="Cucumber Java.Scenario: Adding multiple employees using excel file" />
+        <item itemvalue="Cucumber Java.Scenario: Adding multiple employees using data table" />
+        <item itemvalue="Cucumber Java.Scenario: Adding multiple employees using feature file" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670107146446</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commited">
+      <created>1670381893662</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670381893662</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
