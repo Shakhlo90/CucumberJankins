@@ -10,7 +10,7 @@ public class PageInitializer {
 public  static DashboardPage dashboardPage;
 public static AddEmployeePage addEmployee;
 public static EmployeeListPage employeeList;
-    public static void intializePageObjects() {
+    public static void initializePageObjects() {
         login = new LoginPage();
         dashboardPage=new DashboardPage();
         addEmployee= new AddEmployeePage();

@@ -24,7 +24,7 @@ public class ExcelReader {
             e.printStackTrace();
         }
     }
-    //this method will open the excel work sheet
+    //this method will open the Excel work sheet
     public static void getSheet(String sheetName){
         sheet = book.getSheet(sheetName);
     }
@@ -42,7 +42,7 @@ public class ExcelReader {
         return sheet.getRow(rowIndex).getCell(colIndex).toString();
     }
 
-//this method will return list of maps having all the data from excel file
+//this method will return list of maps having all the data from Excel file
 
     public static List<Map<String, String>> excelListIntoMap
             (String filePath, String sheetName){
