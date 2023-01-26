@@ -6,6 +6,7 @@ import org.apache.commons.math3.analysis.function.Constant;
 import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -27,8 +28,10 @@ public class CommonMethods extends PageInitializer {
         ConfigReader.readProperties(Constants.COMFIGURATION_FILEPATH);
         switch (ConfigReader.getPropertyValue("browser")) {
             case "chrome":
+                ChromeOptions chromeOptions= new ChromeOptions();
+                chromeOptions.setHeadless(true);
                 WebDriverManager.chromedriver().setup();
-                driver = new ChromeDriver();
+                driver = new ChromeDriver(chromeOptions);
                 break;
             case "firefox":
                 WebDriverManager.firefoxdriver().setup();
@@ -40,7 +43,7 @@ public class CommonMethods extends PageInitializer {
         driver.manage().window().maximize();
         driver.get(ConfigReader.getPropertyValue("url"));
         driver.manage().timeouts().implicitlyWait(Constants.IMPLICIT_WAIT, TimeUnit.SECONDS);
-        intializePageObjects();
+        initializePageObjects();
         DOMConfigurator.configure("log4j.xml");
         Log.startTestCase("My first test case is Login test");
         Log.info("My login test is going on");

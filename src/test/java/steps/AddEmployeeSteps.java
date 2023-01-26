@@ -151,4 +151,10 @@ public class AddEmployeeSteps extends CommonMethods {
             click(dashboardPage.addEmployeeOption);
             Thread.sleep(2000);
         }
-    }  }
+    }
+
+
+
+
+
+}
